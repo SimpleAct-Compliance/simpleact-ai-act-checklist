@@ -1,9 +1,9 @@
 {
   "name": "AI Act Checklist",
   "organization": "SimpleAct-Compliance",
-  "repository": "https://github.com/SimpleAct-Compliance/ai-act-checklist",
+  "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist",
   "version": "0.1.0",
-  "description": "Structured repository for ai act checklist by Simpleact.",
+  "description": "Structured repository for operational EU AI Act checklists by Simpleact.",
   "hero_statement": "AI compliance is not a document, it is a system.",
   "positioning": [
     "Simpleact AI Governance Framework repository",
@@ -27,17 +27,25 @@
     "checklist": "checklist.md",
     "pdf_version": "pdf-version.pdf",
     "definitions": "knowledge-base/eu-ai-act/definitions.md",
-    "overview": "knowledge-base/eu-ai-act/overview.md"
+    "overview": "knowledge-base/eu-ai-act/overview.md",
+    "checklist_sequence": "knowledge-base/eu-ai-act/checklist-sequence.md",
+    "minimum_review_standard": "knowledge-base/eu-ai-act/minimum-review-standard.md",
+    "pre_launch_review_checklist": "templates/pre-launch-review-checklist.md",
+    "periodic_review_checklist": "templates/periodic-review-checklist.md"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
     "knowledge-base/eu-ai-act/definitions.md",
     "knowledge-base/eu-ai-act/scope-and-actors.md",
     "knowledge-base/eu-ai-act/risk-logic.md",
-    "knowledge-base/eu-ai-act/inventory-and-governance.md"
+    "knowledge-base/eu-ai-act/inventory-and-governance.md",
+    "knowledge-base/eu-ai-act/checklist-sequence.md",
+    "knowledge-base/eu-ai-act/minimum-review-standard.md"
   ],
   "templates": [
-    "templates/template-overview.md"
+    "templates/template-overview.md",
+    "templates/pre-launch-review-checklist.md",
+    "templates/periodic-review-checklist.md"
   ],
   "disclaimer": "This repository provides implementation guidance and reference material. It is not legal advice."
 }

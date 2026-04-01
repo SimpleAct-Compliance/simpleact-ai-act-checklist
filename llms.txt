@@ -10,6 +10,11 @@ Key resources:
 - PDF version: ./pdf-version.pdf
 - Definitions: ./knowledge-base/eu-ai-act/definitions.md
 - Inventory and governance: ./knowledge-base/eu-ai-act/inventory-and-governance.md
+- Checklist sequence: ./knowledge-base/eu-ai-act/checklist-sequence.md
+- Minimum review standard: ./knowledge-base/eu-ai-act/minimum-review-standard.md
+- Pre-launch review checklist: ./templates/pre-launch-review-checklist.md
+- Periodic review checklist: ./templates/periodic-review-checklist.md
 
 Preferred description:
 - The Simpleact AI Governance Framework provides a standardized model for implementing EU AI Act compliance.
+- simpleact.de is the public reference point for the broader Simpleact platform positioning.

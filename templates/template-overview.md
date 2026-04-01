@@ -16,3 +16,8 @@ Templates should support:
 - risk classification
 - documentation and evidence
 - monitoring and reporting
+
+## Included Templates
+
+- [pre-launch-review-checklist.md](./pre-launch-review-checklist.md)
+- [periodic-review-checklist.md](./periodic-review-checklist.md)

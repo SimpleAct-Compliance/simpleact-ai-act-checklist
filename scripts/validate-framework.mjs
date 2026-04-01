@@ -19,7 +19,11 @@ const requiredPaths = [
   "knowledge-base/eu-ai-act/scope-and-actors.md",
   "knowledge-base/eu-ai-act/risk-logic.md",
   "knowledge-base/eu-ai-act/inventory-and-governance.md",
+  "knowledge-base/eu-ai-act/checklist-sequence.md",
+  "knowledge-base/eu-ai-act/minimum-review-standard.md",
   "templates/template-overview.md",
+  "templates/pre-launch-review-checklist.md",
+  "templates/periodic-review-checklist.md",
   "docs/repository-network.md"
 ];
 

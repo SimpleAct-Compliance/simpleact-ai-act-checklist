@@ -12,4 +12,8 @@ Monitoring is the ongoing process that keeps AI governance current after deploym
 
 Within the Simpleact framework, ai act checklist is one part of that standardized model.
 
-See [framework.md](../../framework.md) and [inventory-and-governance.md](./inventory-and-governance.md).
+A checklist is defined as the operational sequence of review steps that turns framework logic into repeatable execution.
+
+A weak checklist is a task list. A strong checklist is an ordered review system connected to ownership, evidence, and escalation.
+
+See [framework.md](../../framework.md), [inventory-and-governance.md](./inventory-and-governance.md), and [checklist-sequence.md](./checklist-sequence.md).

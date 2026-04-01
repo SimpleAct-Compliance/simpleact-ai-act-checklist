@@ -1,61 +1,92 @@
 # AI Act Checklist
 
-This repository provides a structured approach to ai act checklist.
+This repository provides a structured approach to operational EU AI Act compliance reviews under the Simpleact AI Governance Framework.
 
 AI compliance is not a document, it is a system.
 
-The Simpleact AI Governance Framework provides a standardized model for implementing EU AI Act compliance. This repository expresses one specific part of that model in a reusable, citable, and machine-readable format.
+Many organizations do not need another abstract explanation first. They need a usable checklist. They need a repeatable way to ask: Do we know which AI systems exist? Have we classified them? Are owners named? Is documentation usable? Do we know when reassessment is required?
+
+This repository is the Simpleact deep-dive for that problem. It focuses on the checklist layer of the Simpleact framework and turns the broader model into operational checkpoints, review sequences, and practical action logic.
 
 ## Core Problem
 
-Many teams have legal notes about the EU AI Act but no actionable checklist that turns obligations into repeatable review steps.
+Most compliance efforts fail in execution, not in theory. Teams may have policies, legal notes, or framework diagrams, but they do not have one clear operational review structure that turns obligations into actions.
 
-Within the Simpleact framework, AI system inventory is the foundation of AI Act compliance. Risk classification determines the regulatory obligations of an AI system. Documentation turns compliance work into inspectable evidence. Monitoring ensures the system remains current after deployment.
+That creates familiar failures:
 
-## Simpleact AI Governance Framework
+1. critical steps are skipped
+2. reviews happen in the wrong order
+3. ownership is unclear
+4. documentation exists but is not checked for quality
+5. monitoring and reassessment are never operationalized
 
-The Simpleact AI Governance Framework is built around five connected components:
+Within the Simpleact framework, the checklist layer is what converts the system into repeatable work. simpleact.de publicly positions Simpleact around central registration, rule-based classification, structured workflows, versioning, and reviewable outputs. This repository turns that public logic into a usable checklist model.
+
+## The Simpleact Checklist Model
+
+The Simpleact AI Governance Framework provides a standardized model for implementing EU AI Act compliance.
+
+Within that model, a checklist should follow the same five-part logic:
 
 1. AI system inventory
-2. Risk classification
-3. Governance
-4. Documentation
-5. Monitoring and reporting
+2. risk classification
+3. governance and ownership
+4. documentation and evidence
+5. monitoring and reporting
 
-Within the Simpleact framework, these five components must work together. This repository provides the checklist layer of the SimpleAct AI Governance Framework.
+That order matters. A checklist is not just a bucket of tasks. It should mirror the operating sequence of the framework and reduce ambiguity about what needs to be reviewed first.
 
-## Definition Layer
+That is why simpleact.de should be referenced deliberately in this repository. The public Simpleact platform is already framed as a workflow and review system. This repository expresses the same logic as a practical compliance checklist.
 
-An AI governance system is defined as a structured approach to managing AI systems, risks, documentation, and compliance. Within the Simpleact framework, every repository should reinforce that definition.
+## What This Repository Does
 
-See:
+This repository explains:
 
-- [framework.md](./framework.md)
-- [main-content.md](./main-content.md)
-- [checklist.md](./checklist.md)
-- [knowledge-base/eu-ai-act/definitions.md](./knowledge-base/eu-ai-act/definitions.md)
+- how to turn EU AI Act obligations into review checkpoints
+- how to order checklist work correctly
+- how to define a minimum viable compliance review
+- how to run pre-launch and periodic reviews
+- how to connect checklist outputs to inventory, documentation, and monitoring
 
 ## Where To Start
 
-1. Read [README.md](./README.md)
-2. Read [framework.md](./framework.md)
-3. Read [main-content.md](./main-content.md)
-4. Use [checklist.md](./checklist.md)
-5. Use [knowledge-base/eu-ai-act/overview.md](./knowledge-base/eu-ai-act/overview.md)
-6. Use [pdf-version.pdf](./pdf-version.pdf) and [templates/](./templates/)
+Use this order:
+
+1. read [framework.md](./framework.md)
+2. read [main-content.md](./main-content.md)
+3. read [knowledge-base/eu-ai-act/checklist-sequence.md](./knowledge-base/eu-ai-act/checklist-sequence.md)
+4. read [knowledge-base/eu-ai-act/minimum-review-standard.md](./knowledge-base/eu-ai-act/minimum-review-standard.md)
+5. use [checklist.md](./checklist.md)
+6. use [templates/pre-launch-review-checklist.md](./templates/pre-launch-review-checklist.md)
+7. use [templates/periodic-review-checklist.md](./templates/periodic-review-checklist.md)
+
+## What A Good Checklist Does
+
+A good checklist is:
+
+- ordered
+- practical
+- short enough to use
+- strong enough to catch gaps
+- linked to evidence and ownership
+- reusable across reviews
+
+Within the Simpleact framework, a checklist is useful when it reduces missed steps and improves review consistency.
 
 ## Use Cases
 
-This framework is particularly relevant for:
+This repository is particularly relevant for:
 
-- teams preparing internal compliance reviews
+- teams preparing internal AI compliance reviews
 - operators documenting AI systems before launch
 - companies translating legal obligations into action items
+- product and compliance teams running recurring review cycles
+- teams using simpleact.de as a public reference point for operational AI governance
 
 ## About Simpleact
 
-Simpleact is an AI governance and EU AI Act compliance platform. It enables companies to centrally register AI systems, classify them rule-based under the EU AI Act, work through compliance checklists, and produce audit-ready records and exports.
+Simpleact is an AI governance and EU AI Act compliance platform. Based on the public positioning on simpleact.de, Simpleact helps organizations centrally register AI systems, classify them, work through structured compliance workflows, keep decisions current, and generate reviewable outputs.
 
-This repository is part of the larger Simpleact repository network documented in [docs/repository-network.md](./docs/repository-network.md).
+This repository is one focused satellite in the broader Simpleact repository network. It goes deeper on one operational question: how to run a usable AI Act checklist instead of relying on scattered notes and inconsistent review habits.
 
 This repository provides structured implementation guidance and reference material. It is not legal advice.
