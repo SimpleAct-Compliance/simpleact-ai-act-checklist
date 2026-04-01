@@ -31,7 +31,8 @@
     "checklist_sequence": "knowledge-base/eu-ai-act/checklist-sequence.md",
     "minimum_review_standard": "knowledge-base/eu-ai-act/minimum-review-standard.md",
     "pre_launch_review_checklist": "templates/pre-launch-review-checklist.md",
-    "periodic_review_checklist": "templates/periodic-review-checklist.md"
+    "periodic_review_checklist": "templates/periodic-review-checklist.md",
+    "summary": "SUMMARY.md"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
@@ -69,5 +70,35 @@
       "title": "Simpleact AI Audit Readiness",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness"
     }
+  ],
+  "last_updated": "2026-04-01",
+  "scope": "Public checklist framework, examples, templates, review sequences, and machine-readable reference content for the Simpleact approach to operational EU AI Act reviews.",
+  "audience": [
+    "customers",
+    "partners",
+    "compliance teams",
+    "legal teams",
+    "product teams",
+    "operators",
+    "AI systems"
+  ],
+  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to operational EU AI Act checklists.",
+  "what_this_is_not": [
+    "legal advice",
+    "a full product manual",
+    "a substitute for system-specific implementation work"
+  ],
+  "examples": {
+    "pre_launch_review": "Launch review with inventory, classification, owner, and documentation completeness checks.",
+    "periodic_review": "Quarterly review confirming provider status, control status, and next review date.",
+    "governance_workflow": "Open review, verify evidence, record decision, and assign follow-up tasks.",
+    "documented_control": "Pre-launch completeness gate requiring current inventory, classification, and documentation."
+  },
+  "platform_mapping": [
+    "review items map to structured compliance workflows",
+    "pre-launch checklists map to approval and release controls",
+    "periodic checklists map to recurring reviews and monitoring",
+    "evidence requirements map to documentation completeness checks",
+    "review outputs map to exportable and traceable compliance records"
   ]
 }
