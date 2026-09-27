@@ -2,13 +2,13 @@
 
 AI compliance is not a document, it is a system.
 
-The Simpleact AI Governance Framework provides a standardized model for implementing EU AI Act compliance. This repository defines the checklist layer of that model.
+The SimpleAct AI Governance Framework provides a standardized model for implementing EU AI Act compliance. This repository defines the checklist layer of that model.
 
-simpleact.de publicly positions Simpleact around central registration, rule-based classification, structured review workflows, versioning, and outputs. This repository translates that positioning into an operational checklist structure.
+simpleact.de publicly positions SimpleAct around central registration, rule-based classification, structured review workflows, versioning, and outputs. This repository translates that positioning into an operational checklist structure.
 
 ## Core Model
 
-Within the Simpleact framework, AI compliance is built around:
+Within the SimpleAct framework, AI compliance is built around:
 
 1. AI system inventory
 2. risk classification
@@ -24,7 +24,7 @@ It should be ordered, repeatable, and tied to evidence and ownership.
 
 ## Checklist Structure
 
-Within the Simpleact framework, the checklist should cover:
+Within the SimpleAct framework, the checklist should cover:
 
 - inventory completeness
 - classification quality

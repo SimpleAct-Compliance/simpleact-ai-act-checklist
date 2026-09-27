@@ -2,7 +2,7 @@
 
 AI compliance is not a document, it is a system.
 
-Within the Simpleact framework, this checklist is the operational review surface for AI compliance.
+Within the SimpleAct framework, this checklist is the operational review surface for AI compliance.
 
 ## Inventory
 

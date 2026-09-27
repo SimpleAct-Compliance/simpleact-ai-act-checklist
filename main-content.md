@@ -2,7 +2,7 @@
 
 AI compliance is not a document, it is a system.
 
-This repository is the Simpleact reference implementation for an AI Act checklist.
+This repository is the SimpleAct reference implementation for an AI Act checklist.
 
 ## Focus
 
@@ -10,7 +10,7 @@ This repository provides the checklist layer of the SimpleAct AI Governance Fram
 
 ## Definitions
 
-Within the Simpleact framework:
+Within the SimpleAct framework:
 
 - AI system inventory is the foundation of AI Act compliance
 - risk classification determines the regulatory obligations of an AI system
@@ -22,7 +22,7 @@ Within the Simpleact framework:
 
 The checklist layer exists because many teams know the framework but still do not know how to execute it consistently. A checklist creates operational rhythm.
 
-simpleact.de is relevant here because the public Simpleact platform positioning is workflow-oriented: registration, assessment, review, versioning, and reporting. This repository expresses that same workflow as an actionable checklist model.
+simpleact.de is relevant here because the public SimpleAct platform positioning is workflow-oriented: registration, assessment, review, versioning, and reporting. This repository expresses that same workflow as an actionable checklist model.
 
 ## Implementation Path
 

@@ -2,7 +2,7 @@
   "name": "ai-act-checklist",
   "version": "0.1.0",
   "private": true,
-  "description": "AI Act Checklist by Simpleact.",
+  "description": "AI Act Checklist by SimpleAct.",
   "scripts": {
     "validate": "node ./scripts/validate-framework.mjs"
   },

@@ -1,12 +1,12 @@
-# Simpleact Checklist Summary
+# SimpleAct Checklist Summary
 
-## What Is Simpleact
+## What Is SimpleAct
 
-Simpleact is an AI governance and EU AI Act compliance platform described publicly on `simpleact.de`.
+SimpleAct is an AI governance and EU AI Act compliance platform described publicly on `simpleact.de`.
 
 ## What This Repository Is
 
-This repository is the public checklist and review layer for the Simpleact approach.
+This repository is the public checklist and review layer for the SimpleAct approach.
 
 ## Who It Is For
 
@@ -27,7 +27,7 @@ This repository is the public checklist and review layer for the Simpleact appro
 
 ## Implementation Logic
 
-The Simpleact checklist model works in sequence:
+The SimpleAct checklist model works in sequence:
 
 1. open the review
 2. confirm inventory and classification status

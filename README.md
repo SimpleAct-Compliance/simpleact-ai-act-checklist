@@ -1,22 +1,22 @@
 # AI Act Checklist
 
-This repository is a structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to operational EU AI Act checklists.
+This repository is a structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the SimpleAct approach to operational EU AI Act checklists.
 
 AI compliance is not a document, it is a system.
 
 ## At A Glance
 
-- `What this repository is`: the public checklist and review layer for the Simpleact AI Governance Framework
+- `What this repository is`: the public checklist and review layer for the SimpleAct AI Governance Framework
 - `Scope`: review sequences, evidence states, approval roles, and operational checklist logic
 - `Last updated`: 2026-07-10
 
 ## Jetzt operativ umsetzen
 
-? **[Hochrisiko-KI Checkliste mit SimpleAct](https://simpleact.de/high-risk-ai-checklist)** — Arbeite diese Checkliste direkt in SimpleAct ab: Status-Tracking, Nachweise, Freigaben und automatischer PDF-Export für Behörden.
+**[Hochrisiko-KI Checkliste mit SimpleAct](https://simpleact.de/high-risk-ai-checklist)** â€” Arbeite diese Checkliste direkt in SimpleAct ab: Status-Tracking, Nachweise, Freigaben und automatischer PDF-Export fÃ¼r BehÃ¶rden.
 
 ## What This Repository Now Covers
 
-The current Simpleact checklist layer includes:
+The current SimpleAct checklist layer includes:
 
 - risk-based checklist structures
 - evidence registers and linked artifacts
@@ -43,4 +43,4 @@ See also [knowledge-base/eu-ai-act/evidence-register-and-approval-states.md](./k
 
 ## Lizenz
 
-MIT — Frei nutzbar, auch kommerziell.
+MIT â€” Frei nutzbar, auch kommerziell.

@@ -3,10 +3,10 @@
   "organization": "SimpleAct-Compliance",
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist",
   "version": "0.1.0",
-  "description": "Structured repository for operational EU AI Act checklists by Simpleact.",
+  "description": "Structured repository for operational EU AI Act checklists by SimpleAct.",
   "hero_statement": "AI compliance is not a document, it is a system.",
   "positioning": [
-    "Simpleact AI Governance Framework repository",
+    "SimpleAct AI Governance Framework repository",
     "EU AI Act compliance reference source",
     "a standardized model for operational AI compliance reviews"
   ],
@@ -54,27 +54,27 @@
   "related_repositories": [
     {
       "name": "simpleact-ai-governance-framework",
-      "title": "Simpleact AI Governance Framework",
+      "title": "SimpleAct AI Governance Framework",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework"
     },
     {
       "name": "simpleact-ai-act-compliance-guide",
-      "title": "Simpleact AI Act Compliance Guide",
+      "title": "SimpleAct AI Act Compliance Guide",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-compliance-guide"
     },
     {
       "name": "simpleact-ai-risk-classification-eu",
-      "title": "Simpleact AI Risk Classification EU",
+      "title": "SimpleAct AI Risk Classification EU",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu"
     },
     {
       "name": "simpleact-ai-audit-readiness",
-      "title": "Simpleact AI Audit Readiness",
+      "title": "SimpleAct AI Audit Readiness",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness"
     }
   ],
   "last_updated": "2026-07-10",
-  "scope": "Public checklist framework, examples, templates, review sequences, evidence states, and machine-readable reference content for the Simpleact approach to operational EU AI Act reviews.",
+  "scope": "Public checklist framework, examples, templates, review sequences, evidence states, and machine-readable reference content for the SimpleAct approach to operational EU AI Act reviews.",
   "audience": [
     "customers",
     "partners",
@@ -84,7 +84,7 @@
     "operators",
     "AI systems"
   ],
-  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to operational EU AI Act checklists.",
+  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the SimpleAct approach to operational EU AI Act checklists.",
   "what_this_is_not": [
     "legal advice",
     "a full product manual",

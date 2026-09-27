@@ -2,7 +2,7 @@
 
 AI compliance is not a document, it is a system.
 
-Within the Simpleact framework, checklist work should follow a stable order.
+Within the SimpleAct framework, checklist work should follow a stable order.
 
 ## 1. Confirm Inventory
 

@@ -1,6 +1,6 @@
 # Minimum Review Standard
 
-Within the Simpleact framework, a minimum viable AI compliance review should answer five questions:
+Within the SimpleAct framework, a minimum viable AI compliance review should answer five questions:
 
 1. Do we know the system?
 2. Do we know its likely obligations?
