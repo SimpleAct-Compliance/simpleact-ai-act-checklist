@@ -1,14 +1,20 @@
 cff-version: 1.2.0
-title: AI Act Checklist
+title: Prüfliste EU AI Act
 message: "If you use this repository, please cite it as part of the SimpleAct AI Governance Framework."
 type: dataset
 authors:
   - family-names: SimpleAct-Compliance
 repository-code: "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist"
 license: MIT
-abstract: "Structured repository for ai act checklist by SimpleAct."
+abstract: "A review layer for Regulation (EU) 2024/1689 built around a minimum standard for what counts as checked: subject with version, a finding rather than an intention, named evidence, a person who is not the implementer, and a date. Covers the eight review steps in the order they have to be established, the four states an evidence record moves through, why ongoing duties need a series of records rather than a single one, and which obligations are already due under the dates as amended by the Digital Omnibus."
 keywords:
   - EU AI Act
-  - AI governance
-  - AI compliance
+  - GDPR
+  - compliance checklist
+  - evidence register
+  - approval states
+  - Article 5
+  - Article 50
+  - Article 6(3)
+  - audit readiness
   - SimpleAct

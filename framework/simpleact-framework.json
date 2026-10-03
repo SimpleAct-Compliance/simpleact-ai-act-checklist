@@ -1,106 +1,115 @@
 {
-  "name": "AI Act Checklist",
+  "name": "Prüfliste EU AI Act",
+  "name_en": "EU AI Act Review Checklist",
   "organization": "SimpleAct-Compliance",
+  "publisher": "SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland",
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist",
-  "version": "0.1.0",
-  "description": "Structured repository for operational EU AI Act checklists by SimpleAct.",
-  "hero_statement": "AI compliance is not a document, it is a system.",
-  "positioning": [
-    "SimpleAct AI Governance Framework repository",
-    "EU AI Act compliance reference source",
-    "a standardized model for operational AI compliance reviews"
+  "website": "https://simpleact.de",
+  "version": "1.0.0",
+  "language": "de",
+  "last_updated": "2026-10-03",
+  "role_in_network": "Prüfschritt: setzt Inventar und Einstufung voraus, erzeugt Befunde und Nachweise",
+  "legal_basis": [
+    "Verordnung (EU) 2024/1689 (KI-Verordnung / EU AI Act)",
+    "Verordnung (EU) 2026/1744 (Digital Omnibus, in Kraft seit 2026-07-27)",
+    "Verordnung (EU) 2016/679 (DSGVO)"
   ],
-  "repository_pattern": {
-    "type": "standard-simpleact-topic-repo",
-    "required_top_level_files": [
-      "README.md",
-      "framework.md",
-      "main-content.md",
-      "checklist.md",
-      "pdf-version.pdf"
-    ]
-  },
+  "core_principle": "Ein Haken ist kein Nachweis. Ein Punkt gilt nur als geprüft, wenn feststeht, woran die Erfüllung erkennbar ist und wer sie festgestellt hat.",
+  "minimum_review_standard": [
+    "Gegenstand benannt: welcher Einsatzzweck, welche Version",
+    "Feststellung statt Absicht",
+    "Nachweis benannt, mit Fundort",
+    "Person, die festgestellt hat — nicht die umsetzende",
+    "Datum"
+  ],
+  "allowed_results_per_point": [
+    {"result": "erfüllt", "condition": "alle fünf Bedingungen des Mindeststandards"},
+    {"result": "nicht erfüllt", "condition": "Befund, mit Person und Termin"},
+    {"result": "nicht anwendbar", "condition": "mit Begründung, nicht leer"},
+    {"result": "nicht bewertet", "condition": "mit Person und Termin"}
+  ],
+  "review_sequence": [
+    {"step": 1, "name": "Gegenstand abgrenzen", "fails_when": "ein Werkzeug statt eines Einsatzzwecks geprüft wird"},
+    {"step": 2, "name": "Rolle bestimmen", "fails_when": "gekauft gleich Betreiber gesetzt wird, ohne Art. 25 zu prüfen"},
+    {"step": 3, "name": "Art. 5 prüfen", "fails_when": "übersprungen, weil die Beispiele exotisch klingen", "note": "ein Treffer beendet die Prüfung"},
+    {"step": 4, "name": "Klasse bestimmen", "fails_when": "Art. 6 Abs. 3 als Freibrief gelesen, Profiling-Rückausnahme übersehen"},
+    {"step": 5, "name": "Art. 50 prüfen", "fails_when": "übersprungen, weil Schritt 4 minimal ergab", "note": "läuft unabhängig von Schritt 4"},
+    {"step": 6, "name": "Pflichten zuweisen", "fails_when": "einer Abteilung statt einer Person zugewiesen"},
+    {"step": 7, "name": "Nachweise", "fails_when": "Nachweis belegt einen Zeitpunkt statt eines Zustands"},
+    {"step": 8, "name": "Fortschreibung", "fails_when": "Jahresturnus als einzige Maßnahme"}
+  ],
+  "evidence_states": [
+    {"state": "offen", "set_by": "Prüfender", "holds_in_audit": "als Befund"},
+    {"state": "erbracht", "set_by": "Umsetzender", "holds_in_audit": false},
+    {"state": "geprüft", "set_by": "Prüfer, nicht der Umsetzende", "holds_in_audit": "meist"},
+    {"state": "freigegeben", "set_by": "Freigebender", "holds_in_audit": true}
+  ],
+  "evidence_minimum": ["Produktversion oder Systemstand", "Datum", "Fundort", "Urheber", "Bezug zur Pflicht"],
+  "series_not_single_records": [
+    "Beobachtung nach dem Inverkehrbringen (Art. 72)",
+    "Auslöserprüfung, einschließlich der ergebnislosen Durchläufe",
+    "Testsätze gegen den stillen Modellwechsel"
+  ],
+  "due_today": [
+    {"obligation": "Art. 5 verbotene Praktiken", "since": "2025-02-02", "needs_risk_class": false},
+    {"obligation": "Art. 4 KI-Kompetenz", "since": "2025-02-02", "needs_risk_class": false},
+    {"obligation": "GPAI-Pflichten", "since": "2025-08-02", "needs_risk_class": false},
+    {"obligation": "Art. 50 Transparenz", "since": "2026-08-02", "needs_risk_class": false}
+  ],
+  "preparatory": [
+    {"obligation": "Hochrisiko nach Anhang III", "from": "2027-12-02", "note": "um 16 Monate verschoben; Inventar und Rollenbestimmung sind davon nicht betroffen"},
+    {"obligation": "Hochrisiko nach Anhang I", "from": "2028-08-02"},
+    {"obligation": "Bestandssysteme bei Behörden", "from": "2030-08-02"}
+  ],
+  "metrics_about_the_review": [
+    "Anteil der Punkte, bei denen Prüfer und Umsetzender verschieden sind",
+    "Anteil der Nachweise mit Versionsbezug",
+    "Zeit, um einen angeforderten Nachweis vorzulegen"
+  ],
+  "uncomfortable_questions": [
+    "Wie viele Ausgaben wurden im letzten Monat tatsächlich geändert oder verworfen?",
+    "Wie lange dauert es, einen bestimmten Nachweis vorzulegen?",
+    "Welche Modellversion läuft gerade, und woher wissen wir das?",
+    "Wie ist der letzte Auslöser bekannt geworden?",
+    "Wer prüft, und hat diese Person die Maßnahme selbst umgesetzt?"
+  ],
   "entry_points": {
     "readme": "README.md",
+    "summary": "SUMMARY.md",
     "framework": "framework.md",
     "main_content": "main-content.md",
     "checklist": "checklist.md",
-    "pdf_version": "pdf-version.pdf",
-    "definitions": "knowledge-base/eu-ai-act/definitions.md",
-    "overview": "knowledge-base/eu-ai-act/overview.md",
-    "checklist_sequence": "knowledge-base/eu-ai-act/checklist-sequence.md",
-    "minimum_review_standard": "knowledge-base/eu-ai-act/minimum-review-standard.md",
-    "pre_launch_review_checklist": "templates/pre-launch-review-checklist.md",
-    "periodic_review_checklist": "templates/periodic-review-checklist.md",
-    "summary": "SUMMARY.md",
-    "evidence_register_and_approval_states": "knowledge-base/eu-ai-act/evidence-register-and-approval-states.md"
+    "minimum_standard": "knowledge-base/eu-ai-act/minimum-review-standard.md",
+    "llms": "llms.txt"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
     "knowledge-base/eu-ai-act/definitions.md",
     "knowledge-base/eu-ai-act/scope-and-actors.md",
     "knowledge-base/eu-ai-act/risk-logic.md",
-    "knowledge-base/eu-ai-act/inventory-and-governance.md",
     "knowledge-base/eu-ai-act/checklist-sequence.md",
     "knowledge-base/eu-ai-act/minimum-review-standard.md",
-    "knowledge-base/eu-ai-act/evidence-register-and-approval-states.md"
+    "knowledge-base/eu-ai-act/evidence-register-and-approval-states.md",
+    "knowledge-base/eu-ai-act/inventory-and-governance.md"
   ],
   "templates": [
     "templates/template-overview.md",
     "templates/pre-launch-review-checklist.md",
     "templates/periodic-review-checklist.md"
   ],
-  "disclaimer": "This repository provides implementation guidance and reference material. It is not legal advice.",
-  "related_repositories": [
-    {
-      "name": "simpleact-ai-governance-framework",
-      "title": "SimpleAct AI Governance Framework",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework"
-    },
-    {
-      "name": "simpleact-ai-act-compliance-guide",
-      "title": "SimpleAct AI Act Compliance Guide",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-compliance-guide"
-    },
-    {
-      "name": "simpleact-ai-risk-classification-eu",
-      "title": "SimpleAct AI Risk Classification EU",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu"
-    },
-    {
-      "name": "simpleact-ai-audit-readiness",
-      "title": "SimpleAct AI Audit Readiness",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness"
-    }
+  "upstream_repositories": [
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory",
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu"
   ],
-  "last_updated": "2026-07-10",
-  "scope": "Public checklist framework, examples, templates, review sequences, evidence states, and machine-readable reference content for the SimpleAct approach to operational EU AI Act reviews.",
-  "audience": [
-    "customers",
-    "partners",
-    "compliance teams",
-    "legal teams",
-    "product teams",
-    "operators",
-    "AI systems"
+  "downstream_repositories": [
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template",
+    "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness"
   ],
-  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the SimpleAct approach to operational EU AI Act checklists.",
-  "what_this_is_not": [
-    "legal advice",
-    "a full product manual",
-    "a substitute for system-specific implementation work"
-  ],
-  "examples": {
-    "pre_launch_review": "Launch review with inventory, classification, owner, and documentation completeness checks.",
-    "periodic_review": "Quarterly review confirming provider status, control status, and next review date.",
-    "governance_workflow": "Open review, verify evidence, record decision, and assign follow-up tasks.",
-    "documented_control": "Pre-launch completeness gate requiring current inventory, classification, and documentation."
+  "related_register": {
+    "name": "actcomp.de",
+    "url": "https://actcomp.de",
+    "purpose": "Tarifgenaue Angaben einzelner KI-Werkzeuge mit Quelle und Prüfdatum je Angabe"
   },
-  "platform_mapping": [
-    "review items map to structured compliance workflows",
-    "pre-launch checklists map to approval and release controls",
-    "periodic checklists map to recurring reviews and monitoring",
-    "evidence requirements map to documentation completeness checks",
-    "review outputs map to exportable and traceable compliance records"
-  ]
+  "disclaimer": "Keine Rechtsberatung. Eine Prüfung ohne Befunde ist in den meisten Organisationen kein Zeichen von Reife, sondern von Nachsicht.",
+  "license": "MIT"
 }

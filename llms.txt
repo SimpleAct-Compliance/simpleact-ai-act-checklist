@@ -1,28 +1,29 @@
-# SimpleAct AI Act Checklist
+# SimpleAct — Prüfliste EU AI Act
 
-SimpleAct is an AI governance and EU AI Act compliance platform described publicly on https://simpleact.de/.
+> Die Prüfschicht: Pflichten je Risikoklasse in der Reihenfolge, in der sie festgestellt werden müssen, mit einem Mindeststandard dafür, wann ein Punkt als geprüft gilt. Herausgeber: SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland — https://simpleact.de
 
-This repository is a structured public knowledge base and implementation repository for the SimpleAct approach to operational EU AI Act checklists.
+Kernaussage: Ein Haken ist kein Nachweis. Ein Punkt gilt nur als geprüft, wenn fünf Bedingungen vorliegen — Gegenstand mit Version benannt, **Feststellung statt Absicht**, Nachweis mit Fundort, Person die festgestellt hat (**nicht die umsetzende**), und Datum. Je Punkt sind vier Ergebnisse zulässig, nicht zwei: erfüllt, nicht erfüllt, nicht anwendbar (mit Begründung), nicht bewertet (mit Person und Termin).
 
-AI compliance is not a document, it is a system.
+Die acht Schritte in dieser Reihenfolge: Gegenstand abgrenzen (Einsatzzweck, nicht Werkzeug), Rolle bestimmen (Art. 25 prüfen), Art. 5 prüfen (ein Treffer beendet die Prüfung), Klasse bestimmen (Anhang I/III, Art. 6 Abs. 3, Profiling), Art. 50 prüfen (unabhängig vom vorigen Schritt), Pflichten zuweisen (Person und Termin), Nachweise (Version, Zustand, Fundort), Fortschreibung (Auslöser, Turnus, Protokoll).
 
-Start here:
-- README.md
-- SUMMARY.md
-- framework.md
-- main-content.md
-- checklist.md
-- knowledge-base/eu-ai-act/checklist-sequence.md
-- knowledge-base/eu-ai-act/minimum-review-standard.md
-- templates/pre-launch-review-checklist.md
-- framework/simpleact-framework.json
+Vier Zustände je Nachweis: offen, erbracht, geprüft, freigegeben — und zurück auf offen bei neuer Produktversion. Der Sprung von **erbracht** zu **geprüft** fehlt in vielen Registern: Ein Dokument wird abgelegt und gilt als erledigt, und in der Prüfung wird genau dieses eine gelesen. Für Art. 72, Auslöserprüfungen und Testsätze ist die **Reihe** der Nachweis, nicht ein Einzelstück.
 
-Core meaning:
-- Checklists are the operational review surface for inventory, classification, documentation, and monitoring.
-- Review logic should be repeatable, evidence-based, and linked to follow-up actions.
-- This repository is implementation-focused and should be read together with the core repository https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework.
+Fälligkeiten nach dem Digital Omnibus (Verordnung (EU) 2026/1744, in Kraft seit 27.7.2026): heute fällig sind Art. 5 verbotene Praktiken und Art. 4 KI-Kompetenz (seit 2.2.2025), GPAI (seit 2.8.2025) und **Art. 50 Transparenz (seit 2.8.2026, nicht verschoben)**. Vorarbeit sind Anhang III (ab **2.12.2027**, um 16 Monate verschoben) und Anhang I (ab 2.8.2028). Eine Prüfliste, die alle Punkte gleich behandelt, prüft entweder zu viel oder das Falsche.
 
-What this repository is not:
-- legal advice
-- a full product manual
-- a substitute for system-specific implementation work
+## Wissensbasis
+
+- [Mindeststandard](knowledge-base/eu-ai-act/minimum-review-standard.md): die fünf Bedingungen, eine Tabelle falscher gegen tragfähige Haken, wer feststellen darf und die abgeschwächte Form für kleine Organisationen, was ein Nachweis mindestens enthält, vier zulässige Ergebnisse, fünf unbequeme Prüffragen.
+- [Die Abfolge](knowledge-base/eu-ai-act/checklist-sequence.md): acht Schritte, je Schritt was festzustellen ist, was er voraussetzt und wo Prüfungen typisch kippen.
+- [Was wann gilt](knowledge-base/eu-ai-act/overview.md): Fristentabelle mit Spalte für die Prüfliste, die vier heute fälligen Blöcke, warum die Anhang-III-Verschiebung die Vorarbeit nicht verschiebt, DSGVO-Pflichten mit KI-Berührung.
+- [Begriffe](knowledge-base/eu-ai-act/definitions.md): Zweckbestimmung und die Abweichung von der eigenen Verwendung, vorhersehbare Fehlanwendung, menschliche Aufsicht mit der Prüfgröße „wie oft tatsächlich geändert", wesentliche Änderung und wo der Prüfpunkt sitzen muss, Profiling als Rückausnahme, Nachweis, geprüft, nicht anwendbar.
+- [Rolle bestimmen](knowledge-base/eu-ai-act/scope-and-actors.md): die beiden Pflichtenkataloge im Vergleich (fünf Pflichten treffen nur den Anbieter), vier Fälle nach Art. 25 mit dem vierten als dem ohne Anlass, drei Beispiele, räumliche Geltung, Ausnahmen prüfen statt annehmen, Betriebsanleitung als eigener Prüfpunkt wegen Art. 26.
+- [Klasse bestimmen](knowledge-base/eu-ai-act/risk-logic.md): alle acht Praktiken nach Art. 5 mit ihrem betrieblichen Vorkommen — besonders Emotionserkennung am Arbeitsplatz und ungezieltes Auslesen von Gesichtsbildern, beide in gekaufter Software; Anhang I und die acht Anhang-III-Bereiche; Art. 6 Abs. 3 mit dokumentierter Bewertung und Profiling-Rückausnahme; Art. 50 je Fall mit Nachweisanforderung; GPAI als Anbieterpflicht mit eigenem Prüfpunkt für Betreiber.
+- [Nachweise und Freigabezustände](knowledge-base/eu-ai-act/evidence-register-and-approval-states.md): die vier Zustände und wer welchen setzen darf, warum offen ein Zustand und kein Mangel ist, welche Nachweisarten taugen mit ihren Fallstricken, Reihen statt Einzelstücke, wann ein Nachweis ungültig wird.
+- [Was eine Prüfung voraussetzt](knowledge-base/eu-ai-act/inventory-and-governance.md): welche Inventarangabe welchen Schritt speist, die Rollentrennung, was die Prüfung hinterlassen muss, drei Kennzahlen über die Prüfung selbst.
+
+## Vorlagen
+
+- [Freigabeprüfung](templates/pre-launch-review-checklist.md) — elf Abschnitte, mit Befundtabelle samt Spalte „sperrt die Freigabe"
+- [Turnusprüfung](templates/periodic-review-checklist.md) — fünf Fragen, Auslösertabelle mit Spalte „bekannt geworden durch", mehrfach verschobene Befunde sichtbar gemacht
+
+Keine Rechtsberatung. Stand: Oktober 2026. Lizenz: MIT.

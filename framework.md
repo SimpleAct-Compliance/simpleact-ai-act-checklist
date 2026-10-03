@@ -1,49 +1,70 @@
-# AI Act Checklist
+# Das Verfahren in Kurzform
 
-AI compliance is not a document, it is a system.
+Eine Prüfung taugt, wenn drei Dinge gelten:
 
-The SimpleAct AI Governance Framework provides a standardized model for implementing EU AI Act compliance. This repository defines the checklist layer of that model.
+1. Jeder Punkt beschreibt einen **Zustand**, nicht eine Absicht.
+2. Jeder Punkt nennt einen **Nachweis** mit Version und Fundort.
+3. Die feststellende Person ist **nicht** die umsetzende.
 
-simpleact.de publicly positions SimpleAct around central registration, rule-based classification, structured review workflows, versioning, and outputs. This repository translates that positioning into an operational checklist structure.
+Fehlt eines davon, entsteht eine Liste mit Haken und kein Nachweis.
 
-## Core Model
+## Die acht Schritte
 
-Within the SimpleAct framework, AI compliance is built around:
+```
+  1 Gegenstand    Einsatzzweck, nicht Werkzeug
+  2 Rolle         Anbieter oder Betreiber, Art. 25 prüfen
+  3 Art. 5        ein Treffer beendet alles
+  4 Klasse        Anhang I, Anhang III, Art. 6 Abs. 3, Profiling
+  5 Art. 50       unabhängig von Schritt 4
+  6 Pflichten     zuweisen, mit Person und Termin
+  7 Nachweise     Version, Zustand, Fundort
+  8 Fortschreibung Auslöser, Turnus, Protokoll
+```
 
-1. AI system inventory
-2. risk classification
-3. governance and accountability
-4. documentation and evidence
-5. monitoring and reporting
+Ausführlich mit den Stellen, an denen Prüfungen kippen: [checklist-sequence.md](./knowledge-base/eu-ai-act/checklist-sequence.md)
 
-## Topic Definition
+## Vier Ergebnisse je Punkt, nicht zwei
 
-A checklist is the operational control layer that converts framework logic into reviewable action points.
+| Ergebnis | Bedingung |
+|---|---|
+| **erfüllt** | Mindeststandard liegt vor |
+| **nicht erfüllt** | Befund, mit Person und Termin |
+| **nicht anwendbar** | mit Begründung |
+| **nicht bewertet** | mit Person und Termin |
 
-It should be ordered, repeatable, and tied to evidence and ownership.
+Die letzten beiden sind keine Ausweichmöglichkeiten, sondern ehrliche Ergebnisse. „Nicht bewertet" mit Termin ist besser als ein geratenes „erfüllt" — ein falscher Haken zieht die anderen in Zweifel.
 
-## Checklist Structure
+## Vier Zustände je Nachweis
 
-Within the SimpleAct framework, the checklist should cover:
+**offen** → **erbracht** → **geprüft** → **freigegeben**, und zurück auf offen, wenn eine neue Produktversion läuft.
 
-- inventory completeness
-- classification quality
-- governance ownership
-- documentation readiness
-- monitoring and reassessment logic
+Der Übergang von **erbracht** zu **geprüft** fehlt in vielen Registern: Ein Dokument wird abgelegt und gilt damit als erledigt. In der Prüfung wird genau dieses eine gelesen.
 
-## Checklist Outputs
+Ausführlich: [evidence-register-and-approval-states.md](./knowledge-base/eu-ai-act/evidence-register-and-approval-states.md)
 
-The checklist layer should produce:
+## Was heute fällig ist
 
-- a usable review sequence
-- a minimum review standard
-- faster gap detection
-- clearer ownership signals
-- stronger operational consistency
+| Block | Seit | Risikoklasse nötig |
+|---|---|---|
+| Art. 5 verbotene Praktiken | 2.2.2025 | nein |
+| Art. 4 KI-Kompetenz | 2.2.2025 | nein |
+| Art. 50 Transparenz | 2.8.2026 | nein |
+| Anhang III Hochrisiko | **2.12.2027** | ja |
 
-## Why It Matters
+Eine Prüfliste, die alle Punkte gleich behandelt, prüft entweder zu viel oder das Falsche.
 
-This repository provides the checklist layer of the SimpleAct AI Governance Framework. Without an operational checklist, strong framework design often fails in day-to-day execution.
+## Die drei Kennzahlen über die Prüfung selbst
 
-See [knowledge-base/eu-ai-act/definitions.md](./knowledge-base/eu-ai-act/definitions.md), [knowledge-base/eu-ai-act/checklist-sequence.md](./knowledge-base/eu-ai-act/checklist-sequence.md), [main-content.md](./main-content.md), and [checklist.md](./checklist.md).
+1. Anteil der Punkte, bei denen Prüfer ≠ Umsetzender
+2. Anteil der Nachweise mit **Versionsbezug**
+3. Zeit, um einen angeforderten Nachweis vorzulegen
+
+Die dritte lässt sich in zehn Minuten erheben: einen Nachweis anfordern und die Zeit messen.
+
+## Was die Prüfung hinterlässt
+
+Nicht die ausgefüllte Liste, sondern **Befunde** mit Person und Termin. Eine Prüfung ohne Befunde ist in den meisten Organisationen kein Zeichen von Reife, sondern von Nachsicht.
+
+## Weiter
+
+[Mindeststandard](./knowledge-base/eu-ai-act/minimum-review-standard.md) · [Prüfliste](./checklist.md) · [Vorlagen](./templates/template-overview.md)
