@@ -2,9 +2,9 @@
 
 Schritte 3 bis 5 der Prüfung. Hier steht, was in der Prüfliste als Punkt erscheint — nicht die vollständige Einstufungslehre, die liegt in der [Risikoeinstufung](https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu).
 
-## Schritt 3: Art. 5 — die acht verbotenen Praktiken
+## Schritt 3: Art. 5 — die zehn verbotenen Praktiken
 
-Anwendbar seit **2.2.2025**. Alle acht durchgehen, Ergebnis je Praktik festhalten.
+Anwendbar seit **2.2.2025**. Alle zehn durchgehen, Ergebnis je Praktik festhalten.
 
 | # | Praktik | Wo sie in Unternehmen auftaucht |
 |---|---|---|
@@ -16,6 +16,10 @@ Anwendbar seit **2.2.2025**. Alle acht durchgehen, Ergebnis je Praktik festhalte
 | 6 | **Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen** | Gesprächsanalyse, Bewerbungsgespräche, Lernsoftware |
 | 7 | biometrische Kategorisierung zur Ableitung sensibler Merkmale | Analysefunktionen |
 | 8 | biometrische Echtzeit-Fernidentifizierung im öffentlichen Raum zu Strafverfolgungszwecken | Behörden, mit engen Ausnahmen |
+| 9 | **intime Darstellungen identifizierbarer Personen ohne Einwilligung** erzeugen oder manipulieren | Bildgeneratoren, „Nudify"-Funktionen — ab 2.12.2026 |
+| 10 | **Darstellungen sexuellen Kindesmissbrauchs** erzeugen oder manipulieren | ab 2.12.2026 |
+
+**Nr. 9 und 10 sind neu** und gelten ab dem **2.12.2026**. Der Digital Omnibus (Verordnung (EU) 2026/1744) hat sie als Art. 5 Abs. 1 Buchst. ba und bb ergänzt — mit einem eigenen Anwendungsdatum, nicht ab Inkrafttreten. Für Anbieter greift das Verbot auch dann, wenn ein solches Ergebnis vernünftigerweise vorhersehbar und reproduzierbar ist und das System keine eingebauten Schutzmaßnahmen dagegen hat.
 
 **Die zwei, die in gekaufter Software vorkommen, sind 5 und 6.** Sie klingen weniger exotisch als die anderen und werden übersehen: Eine Funktion, die Kundengespräche oder Bewerbungsgespräche nach Stimmung auswertet, ist Emotionserkennung — und am Arbeitsplatz verboten, nicht reguliert.
 
@@ -83,7 +87,7 @@ Pflichten für Modelle mit allgemeinem Verwendungszweck liegen beim **Modellanbi
 
 ## Und ohne Klasse: Art. 4
 
-KI-Kompetenz, anwendbar seit **2.2.2025**, unabhängig von der Risikoklasse. Der Prüfpunkt ist systembezogen: Wer bedient dieses System, und versteht diese Person, wie es irrt? Eine allgemeine KI-Schulung erfüllt ihn nicht.
+KI-Kompetenz, anwendbar seit **2.2.2025**, seit 27.7.2026 in der schwächeren Neufassung (Maßnahmen zur Förderung statt sichergestelltem Niveau), unabhängig von der Risikoklasse. Der Prüfpunkt bleibt systembezogen: Wer bedient dieses System, und versteht diese Person, wie es irrt? Eine allgemeine KI-Schulung erfüllt ihn nicht.
 
 ## Was das Ergebnis festhalten muss
 
@@ -91,7 +95,7 @@ KI-Kompetenz, anwendbar seit **2.2.2025**, unabhängig von der Risikoklasse. Der
 |---|---|
 | Klasse | verboten / Hochrisiko / Transparenzpflicht / minimal |
 | Rechtsgrundlage | Artikel oder Anhang samt Nummer |
-| Art. 5: alle acht geprüft | ja, mit Datum |
+| Art. 5: alle zehn geprüft | ja, mit Datum |
 | Art. 6 Abs. 3 | Bewertung, nicht Haken |
 | Profiling | ja / nein |
 | Art. 50 | je Fall geprüft, auch bei minimaler Klasse |

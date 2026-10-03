@@ -10,6 +10,7 @@ Nach dem **Digital Omnibus** (Verordnung (EU) 2026/1744, in Kraft seit 27.7.2026
 | 2.2.2025 | Art. 4 KI-Kompetenz | **heute fällig** |
 | 2.8.2025 | GPAI-Pflichten, Governance, Sanktionen | heute fällig |
 | **2.8.2026** | **Art. 50 Transparenz** | **heute fällig** — nicht verschoben |
+| 2.12.2026 | Zwei neue verbotene Praktiken nach Art. 5 (intime Darstellungen ohne Einwilligung, Missbrauchsdarstellungen); Ende der Art.-50-Abs.-2-Übergangsfrist für Bestandssysteme  | |
 | **2.12.2027** | Anhang III Hochrisiko | Vorarbeit, um 16 Monate verschoben |
 | 2.8.2028 | Anhang I Hochrisiko | Vorarbeit |
 | 2.8.2030 | Bestandssysteme bei Behörden | Vorarbeit |
@@ -20,9 +21,9 @@ Die rechte Spalte ist der praktische Nutzen dieser Tabelle. Eine Prüfliste, die
 
 Vier Blöcke, unabhängig von jeder Risikoklasse und von jeder Verschiebung:
 
-**Art. 5 — verbotene Praktiken.** Seit Februar 2025. Der Prüfpunkt lautet nicht „wir machen nichts Verbotenes", sondern: alle acht Praktiken durchgegangen, Ergebnis festgehalten. Besonders die beiden, die in gekaufter Software vorkommen — Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen, und das ungezielte Auslesen von Gesichtsbildern.
+**Art. 5 — verbotene Praktiken.** Seit Februar 2025. Der Prüfpunkt lautet nicht „wir machen nichts Verbotenes", sondern: alle zehn Praktiken durchgegangen, Ergebnis festgehalten. Besonders die beiden, die in gekaufter Software vorkommen — Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen, und das ungezielte Auslesen von Gesichtsbildern.
 
-**Art. 4 — KI-Kompetenz.** Seit Februar 2025. Keine Risikoklasse nötig. Der Prüfpunkt: Wer bedient und beaufsichtigt welches System, und mit welchem systembezogenen Schulungsstand? Eine allgemeine KI-Schulung erfüllt den Punkt nicht, wenn niemand weiß, wie das eingesetzte System irrt.
+**Art. 4 — KI-Kompetenz.** Seit Februar 2025, seit 27.7.2026 in der neu gefassten Form: **Maßnahmen zur Förderung** der KI-Kompetenz ergreifen, nicht mehr ein Niveau je Person sicherstellen. Keine Risikoklasse nötig. Der Prüfpunkt bleibt derselbe: Wer bedient und beaufsichtigt welches System, und mit welchem systembezogenen Schulungsstand? Eine allgemeine KI-Schulung belegt nicht, dass jemand weiß, wie das eingesetzte System irrt.
 
 **Art. 50 — Transparenz.** Seit August 2026. Chatbots, erzeugte Inhalte, Emotionserkennung, Deepfakes. Der Prüfpunkt: Ist der Hinweis im laufenden System sichtbar, vor der ersten Eingabe, mit Nachweis samt Produktversion?
 

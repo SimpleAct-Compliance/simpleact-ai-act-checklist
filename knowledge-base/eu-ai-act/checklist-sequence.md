@@ -26,7 +26,7 @@ Acht Schritte. Jeder setzt den vorigen voraus, und jeder hat einen Punkt, an dem
 
 ## 3 Art. 5 prüfen
 
-**Was festzustellen ist:** Liegt eine verbotene Praktik vor? Alle acht, nicht nur die bekannten.
+**Was festzustellen ist:** Liegt eine verbotene Praktik vor? Alle zehn, nicht nur die bekannten.
 
 **Setzt voraus:** Datenarten und Einsatzort aus dem Inventar.
 

@@ -29,7 +29,7 @@ Ein Nein bei der Betriebsanleitung ist ein Befund gegen den Anbieter und gehört
 
 ## 3 Art. 5 — verbotene Praktiken
 
-Alle acht, je Zeile ein Ergebnis. Anwendbar seit 2.2.2025.
+Alle zehn, je Zeile ein Ergebnis. Anwendbar seit 2.2.2025.
 
 - [ ] 1 unterschwellige oder manipulative Techniken
 - [ ] 2 Ausnutzung von Schwäche (Alter, Behinderung, soziale Lage)
@@ -39,6 +39,10 @@ Alle acht, je Zeile ein Ergebnis. Anwendbar seit 2.2.2025.
 - [ ] 6 **Emotionserkennung am Arbeitsplatz oder in Bildungseinrichtungen**
 - [ ] 7 biometrische Kategorisierung zur Ableitung sensibler Merkmale
 - [ ] 8 biometrische Echtzeit-Fernidentifizierung im öffentlichen Raum
+- [ ] 9 **intime Darstellungen identifizierbarer Personen ohne Einwilligung** (ab 2.12.2026)
+- [ ] 10 **Darstellungen sexuellen Kindesmissbrauchs** (ab 2.12.2026)
+
+Nr. 9 und 10 hat der Digital Omnibus ergänzt (Art. 5 Abs. 1 Buchst. ba und bb); sie gelten **ab dem 2.12.2026**, nicht seit Inkrafttreten. Relevant für jedes Produkt mit Bildgenerierung.
 
 Besonders 5 und 6 prüfen: Sie kommen in gekaufter Software vor — Gesprächsanalyse nach Stimmung ist Emotionserkennung.
 

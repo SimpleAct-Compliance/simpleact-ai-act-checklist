@@ -17,7 +17,7 @@ Ohne dieses Kapitel werden die Vorlagen zu Listen mit Haken. Es steht hier bewus
 - [Was wann gilt](./knowledge-base/eu-ai-act/overview.md) — Fristen mit der Spalte „für die Prüfliste", die vier Blöcke die heute fällig sind, und die DSGVO-Punkte mit der höheren Eintrittswahrscheinlichkeit
 - [Begriffe](./knowledge-base/eu-ai-act/definitions.md) — Zweckbestimmung, vorhersehbare Fehlanwendung, menschliche Aufsicht als Prüfgröße, wesentliche Änderung, Profiling, und wie „geprüft" hier gefasst ist
 - [Rolle bestimmen](./knowledge-base/eu-ai-act/scope-and-actors.md) — die beiden Pflichtenkataloge im Vergleich, die vier Fälle nach Art. 25, Ausnahmen prüfen statt annehmen
-- [Klasse bestimmen](./knowledge-base/eu-ai-act/risk-logic.md) — alle acht Praktiken nach Art. 5 mit ihrem betrieblichen Vorkommen, Anhang I und III, Art. 6 Abs. 3 mit Profiling-Rückausnahme, Art. 50 je Fall
+- [Klasse bestimmen](./knowledge-base/eu-ai-act/risk-logic.md) — alle zehn Praktiken nach Art. 5 mit ihrem betrieblichen Vorkommen, Anhang I und III, Art. 6 Abs. 3 mit Profiling-Rückausnahme, Art. 50 je Fall
 - [Die Abfolge](./knowledge-base/eu-ai-act/checklist-sequence.md) — acht Schritte, je Schritt was er voraussetzt und wo Prüfungen kippen
 - [Nachweise und Freigabezustände](./knowledge-base/eu-ai-act/evidence-register-and-approval-states.md) — die vier Zustände, der fehlende Sprung, welche Nachweisarten taugen, und wann Reihen statt Einzelstücke gebraucht werden
 - [Was eine Prüfung voraussetzt](./knowledge-base/eu-ai-act/inventory-and-governance.md) — Inventar und zwei Personen, was die Prüfung hinterlassen muss, drei Kennzahlen über die Prüfung selbst

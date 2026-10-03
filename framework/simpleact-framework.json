@@ -54,7 +54,9 @@
     {"obligation": "Art. 5 verbotene Praktiken", "since": "2025-02-02", "needs_risk_class": false},
     {"obligation": "Art. 4 KI-Kompetenz", "since": "2025-02-02", "needs_risk_class": false},
     {"obligation": "GPAI-Pflichten", "since": "2025-08-02", "needs_risk_class": false},
-    {"obligation": "Art. 50 Transparenz", "since": "2026-08-02", "needs_risk_class": false}
+    {"obligation": "Art. 50 Transparenz", "since": "2026-08-02", "needs_risk_class": false},
+    {"obligation": "Zwei neue verbotene Praktiken nach Art. 5 Buchst. ba und bb", "since": "2026-12-02", "needs_risk_class": false},
+    {"obligation": "Markierung nach Art. 50 Abs. 2 für Bestandssysteme — Ende der Übergangsfrist", "since": "2026-12-02", "needs_risk_class": false}
   ],
   "preparatory": [
     {"obligation": "Hochrisiko nach Anhang III", "from": "2027-12-02", "note": "um 16 Monate verschoben; Inventar und Rollenbestimmung sind davon nicht betroffen"},
