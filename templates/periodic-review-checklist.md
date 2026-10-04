@@ -38,7 +38,7 @@ Die Spalte **bekannt geworden durch** ist die lehrreichste des ganzen Dokuments.
 - [ ] **Testsatz** ist seit der letzten Prüfung gelaufen — Anzahl Durchläufe: ___
 - [ ] Abweichungen im Testsatz: ___
 - [ ] **Änderungsverlauf** des Anbieters wurde gelesen — zuletzt am: ___
-- [ ] Die benannte Stelle für den Änderungsverlauf ist noch besetzt
+- [ ] Die zuständige Person für den Änderungsverlauf ist noch benannt und im Haus
 
 Ein Testsatz, der eingerichtet ist und nicht läuft, ist keine Vorkehrung. Die Zahl der Durchläufe gehört deshalb hin, nicht ein Haken.
 

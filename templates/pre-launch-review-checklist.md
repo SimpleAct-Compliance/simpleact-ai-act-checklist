@@ -113,7 +113,7 @@ Die dritte und vierte Zeile zusammen sind der Punkt. Dreihundert Fälle am Tag b
 
 - [ ] **Auslöser** eingetragen, die diese Prüfung ungültig machen
 - [ ] **Testsatz** gegen den stillen Modellwechsel eingerichtet, mit Turnus
-- [ ] Änderungsverlauf des Anbieters geht an eine benannte Stelle
+- [ ] Änderungsverlauf des Anbieters geht an eine namentlich zuständige Person
 - [ ] **Wiedervorlage** gesetzt
 - [ ] Festgelegt, wer die Zahl der **geänderten Ausgaben** erhebt, und wie oft
 
